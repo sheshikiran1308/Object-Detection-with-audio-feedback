@@ -1,0 +1,13 @@
+# Large YOLO model weights
+code/yolov3.weights
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment secrets
+.env
