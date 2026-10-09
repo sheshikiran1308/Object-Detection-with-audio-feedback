@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Soft Landing Page by Tooplate</title>
+	<!--
+
+    Template 2106 Soft Landing
+
+	http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="/static/home/css/bootstrap.min.css">
+     <link rel="stylesheet" href="/static/home/css/owl.carousel.css">
+     <link rel="stylesheet" href="/static/home/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="/static/home/css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="/static/home/css/tooplate-style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="/static/home/js/webcam.min.js"></script>
+     <script src="/static/home/js/app.js"></script>
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Real Time Object Detection with Audio Feedback</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#feature" class="smoothScroll">About us</a></li>
+                         <li><a href="#about" class="smoothScroll">Prediction</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>Real Time Object Detection with Audio Feedback</h1>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="feature" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>About Us</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <ul class="nav nav-tabs" role="tablist">
+                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Real Time Object Detection with Audio Feedback</a></li>
+                         </ul>
+                         <div class="tab-content">
+                              <div class="tab-pane active" id="tab01" role="tabpanel">
+                                   <div class="tab-pane-item">
+                                        <p>Object recognition is one of the challenging 
+                                             application of computer vision, which has been widely applied 
+                                             in many areas for e.g. autonomous cars, Robotics, Security 
+                                             tracking, Guiding Visually Impaired Peoples etc. With the 
+                                             rapid development of deep learning many algorithms were 
+                                             improving the relationship between video analysis and image 
+                                             understanding. All these algorithms work differently with 
+                                             their network architecture but with the same aim of detecting 
+                                             multiple objects within complex image. Absence of vision 
+                                             impairment restraint the movement of the person in an 
+                                             unfamiliar place and hence it is very essential to take help 
+                                             from our technologies and trained them to guide blind peoples 
+                                             whenever they need.</p>
+                                   </div>
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="feature-image">
+                              <img src="/static/home/images/feature-mockup.png" class="img-responsive" alt="Thin Laptop">                             
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container" id="camera"></div>
+          <div class="container" style="margin-top: 20px;">
+               <center>
+                    <input type=button value="Take Snapshot" onClick="take_snapshot()">
+               </center>
+          </div>
+          <div class="container" style="margin: 50px 60px;">
+               <center>
+                    <img id="res">
+               </center>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="/static/home/js/jquery.js"></script>
+     <script src="/static/home/js/bootstrap.min.js"></script>
+     <script src="/static/home/js/jquery.stellar.min.js"></script>
+     <script src="/static/home/js/owl.carousel.min.js"></script>
+     <script src="/static/home/js/smoothscroll.js"></script>
+     <script src="/static/home/js/custom.js"></script>
+     <script>
+          $(document).ready(key());
+     </script>
+
+</body>
+</html>
